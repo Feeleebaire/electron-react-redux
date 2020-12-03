@@ -57,6 +57,7 @@
     "pack:mac": "gulp pack-mac",
     "pack:win": "gulp pack-win",
     "pack:linux": "gulp pack-linux",
+    "start": "electron .",
     "private:format": "prettier gulpfile.js babel.config.js \"tasks/*.js\" \"app/**/*.js\" \"test/**/*.js\""
   }
 }
